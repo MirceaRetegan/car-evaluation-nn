@@ -127,7 +127,7 @@ acelasi split la fiecare rulare — rezultatele sunt reproductibile.
 | DummyClassifier (majority) | 71.81%   | 0.2090   |
 | Logistic Regression        | 90.73%   | 0.8560   |
 | Random Forest (100 arbori) | 97.30%   | 0.9449   |
-| **MLP PyTorch**            | **96.15%**| **0.9412**|
+| **MLP PyTorch**            | **98.46%**| **0.9740**|
 
 > **Observatie:** Random Forest obtine rezultate similare MLP-ului pe acest
 > dataset deoarece datele sunt tabelare, putine (1728 exemple) si toate
