@@ -115,10 +115,10 @@ acelasi split la fiecare rulare — rezultatele sunt reproductibile.
 
 | Metrica        | Valoare  |
 |----------------|----------|
-| Test Accuracy  | 96.15%   |
-| Macro F1       | 0.9412   |
-| Macro Precision| 0.9487   |
-| Macro Recall   | 0.9341   |
+| Test Accuracy  | 98.46%   |
+| Macro F1       | 0.9740   |
+| Macro Precision| 0.9586   |
+| Macro Recall   | 0.9913   |
 
 ### Comparatie cu modele baseline (sklearn)
 
@@ -146,7 +146,7 @@ acelasi split la fiecare rulare — rezultatele sunt reproductibile.
 
 ## Concluzii
 
-- MLP cu BatchNorm + Dropout atinge **96.15% Accuracy** si **Macro F1 = 0.941**
+- MLP cu BatchNorm + Dropout atinge **98.46% Accuracy** si **Macro F1 = 0.974**
 - Obiectivele proiectului (Accuracy ≥ 95%, F1 ≥ 0.90) au fost atinse
 - Dezechilibrul claselor a fost rezolvat prin `class_weight` in loss function
 - Modelul compact (13,540 parametri) este mai eficient decat variante mai adanci
