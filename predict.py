@@ -40,8 +40,7 @@ def get_input() -> list:
     print("  Raspunde la intrebarile de mai jos:")
     row = []
     for attr, (question, options, labels_ro) in QUESTIONS.items():
-        print(f"
-  {question}:")
+        print(f"\n {question}:")
         for i, (opt, label) in enumerate(zip(options, labels_ro), 1):
             print(f"    {i}. {label}")
         while True:
@@ -87,10 +86,8 @@ def main():
     print("   REZULTAT")
     print("=" * 52)
     emoji = RESULT_EMOJI[CLASS_NAMES[pred]]
-    print(f"
-  {emoji}  Clasa prezisa: {CLASS_NAMES[pred].upper()}")
-    print(f"
-  Probabilitati pentru fiecare clasa:")
+    print(f"\n{emoji} Clasa prezisa: {CLASS_NAMES[pred].upper()}")
+    print(f"\n Probabilitati pentru fiecare clasa:")
     for i, (name, prob) in enumerate(zip(CLASS_NAMES, probs)):
         bar    = chr(9608) * int(prob.item() * 25)
         marker = "  <--" if i == pred else ""
