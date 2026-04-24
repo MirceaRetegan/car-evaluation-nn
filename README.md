@@ -52,7 +52,7 @@ python train.py
 python evaluate.py
 
 # 3. Compara MLP cu modele clasice baseline
-python baseline.py --mlp_acc 96.15 --mlp_f1 0.9412
+python baseline.py --mlp_acc 98.46 --mlp_f1 0.9740
 
 # 4. Testeaza o masina noua (interactiv!)
 python predict.py
